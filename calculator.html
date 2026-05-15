@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор | ArtSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ArtSpace</h1>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="calculator.html">Калькулятор</a>
+        <a href="contact.html">Контакти</a>
+    </nav>
+</header>
+
+<section class="calculator">
+    <h2>Калькулятор вартості дизайну</h2>
+
+    <label>Кількість макетів:</label>
+    <input type="number" id="designs" placeholder="Введіть число">
+
+    <label>Ціна за один макет:</label>
+    <input type="number" id="price" placeholder="Введіть ціну">
+
+    <button onclick="calculatePrice()">Обчислити</button>
+
+    <h3 id="result"></h3>
+</section>
+
+<footer>
+    <p>© 2026 ArtSpace</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
